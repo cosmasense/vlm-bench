@@ -1,0 +1,69 @@
+
+=== Snipaste_2025-12-23_03-09-51.jpg ===
+  qwen3-vl:2b-instruct                                 9.56s  OK
+  qwen3.5-0.8b-Q4_K_M                                  3.92s  OK
+  qwen3.5-0.8b-Q8_0                                    5.67s  OK
+
+=== cursor-2025.png ===
+  qwen3-vl:2b-instruct                                 9.15s  OK
+  qwen3.5-0.8b-Q4_K_M                                  6.16s  OK
+  qwen3.5-0.8b-Q8_0                                    7.27s  OK
+
+=== My activity - COMP SCI 577 001_ Introduction to Algorithms _ zyBooks.jpeg ===
+  qwen3-vl:2b-instruct                                 7.60s  OK
+  qwen3.5-0.8b-Q4_K_M                                  5.98s  OK
+  qwen3.5-0.8b-Q8_0                                    6.55s  OK
+
+=== alian.png ===
+  qwen3-vl:2b-instruct                                 2.53s  OK
+  qwen3.5-0.8b-Q4_K_M                                  2.01s  OK
+  qwen3.5-0.8b-Q8_0                                    2.89s  OK
+
+=== bullet.png ===
+  qwen3-vl:2b-instruct                                 2.67s  OK
+  qwen3.5-0.8b-Q4_K_M                                  2.48s  OK
+  qwen3.5-0.8b-Q8_0                                    2.28s  OK
+
+=== ship.png ===
+  qwen3-vl:2b-instruct                                 4.22s  OK
+  qwen3.5-0.8b-Q4_K_M                                  2.61s  OK
+  qwen3.5-0.8b-Q8_0                                    2.72s  OK
+
+=== Ethan_Pan_ILCE-7C_20260405-_DSC9776.JPG ===
+  qwen3-vl:2b-instruct                                 6.33s  OK
+  qwen3.5-0.8b-Q4_K_M                                  4.25s  OK
+  qwen3.5-0.8b-Q8_0                                    4.70s  OK
+
+=== Ethan_Pan_ILCE-7C_20260405-_DSC9789.JPG ===
+  qwen3-vl:2b-instruct                                 6.28s  OK
+  qwen3.5-0.8b-Q4_K_M                                  3.71s  OK
+  qwen3.5-0.8b-Q8_0                                    4.33s  invalid_json
+
+=== 2021_0407_campus-pictures_jc_0185 (1).jpg ===
+  qwen3-vl:2b-instruct                                 6.80s  OK
+  qwen3.5-0.8b-Q4_K_M                                  4.46s  OK
+  qwen3.5-0.8b-Q8_0                                    6.29s  OK
+
+=== guide_MrCrab.png ===
+  qwen3-vl:2b-instruct                                 8.82s  OK
+  qwen3.5-0.8b-Q4_K_M                                  5.64s  OK
+  qwen3.5-0.8b-Q8_0                                    6.73s  OK
+
+=== Snipaste_2026-04-23_14-46-05.png ===
+  qwen3-vl:2b-instruct                                 9.44s  OK
+  qwen3.5-0.8b-Q4_K_M                                  4.14s  OK
+  qwen3.5-0.8b-Q8_0                                    9.35s  OK
+
+=== 用户题目页.png ===
+  qwen3-vl:2b-instruct                                 7.50s  OK
+  qwen3.5-0.8b-Q4_K_M                                  5.95s  OK
+  qwen3.5-0.8b-Q8_0                                   10.16s  OK
+
+
+=== summary ===
+model                                               mean_s   p95_s  json_ok  all_keys  flagged  avg_kw
+qwen3-vl:2b-instruct                                  6.74    9.44  12/12    12/12      0/12       9.2
+qwen3.5-0.8b-Q4_K_M                                   4.27    5.98  12/12    12/12      0/12       7.0
+qwen3.5-0.8b-Q8_0                                     5.75    9.35  11/12    11/12      1/12       7.2
+
+full outputs: /Users/ethanpan/Documents/code/SAIL/vlm-bench/results.json

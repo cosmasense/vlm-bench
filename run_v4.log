@@ -1,0 +1,138 @@
+Dataset: 12 files
+  objects       image 01.jpg
+  objects       image 02.jpg
+  objects       image 03.jpg
+  ui            image 01.jpg
+  ui            image 02.jpg
+  ui            image 03.jpg
+  architecture  image 01.jpg
+  architecture  image 02.jpg
+  architecture  image 03.jpg
+  pdfs          text  attention_is_all_you_need.pdf
+  pdfs          text  bert.pdf
+  pdfs          text  gpt3_few_shot_learners.pdf
+
+Models: ['qwen3-vl:2b-instruct', 'qwen3.5-0.8b-Q4_K_M', 'qwen3.5-2b-Q4_K_M']
+Reps per pair: 3
+Total inferences: 108
+
+
+=== qwen3-vl:2b-instruct (ollama) ===
+  [qwen3-vl:2b-instruct   | objects      ] rep1 01.jpg                                     0.00s    4178MB  exception
+  [qwen3-vl:2b-instruct   | objects      ] rep2 01.jpg                                     7.10s       0MB  OK
+  [qwen3-vl:2b-instruct   | objects      ] rep3 01.jpg                                     2.48s       0MB  OK
+  [qwen3-vl:2b-instruct   | objects      ] rep1 02.jpg                                     5.79s       0MB  OK
+  [qwen3-vl:2b-instruct   | objects      ] rep2 02.jpg                                     2.06s       0MB  OK
+  [qwen3-vl:2b-instruct   | objects      ] rep3 02.jpg                                     2.08s       0MB  OK
+  [qwen3-vl:2b-instruct   | objects      ] rep1 03.jpg                                     5.92s       0MB  OK
+  [qwen3-vl:2b-instruct   | objects      ] rep2 03.jpg                                     2.48s       0MB  OK
+  [qwen3-vl:2b-instruct   | objects      ] rep3 03.jpg                                     2.20s       0MB  OK
+  [qwen3-vl:2b-instruct   | ui           ] rep1 01.jpg                                     6.63s       0MB  OK
+  [qwen3-vl:2b-instruct   | ui           ] rep2 01.jpg                                     2.93s       0MB  OK
+  [qwen3-vl:2b-instruct   | ui           ] rep3 01.jpg                                     2.65s       0MB  OK
+  [qwen3-vl:2b-instruct   | ui           ] rep1 02.jpg                                     5.64s       0MB  OK
+  [qwen3-vl:2b-instruct   | ui           ] rep2 02.jpg                                     2.04s       0MB  OK
+  [qwen3-vl:2b-instruct   | ui           ] rep3 02.jpg                                     2.09s       0MB  OK
+  [qwen3-vl:2b-instruct   | ui           ] rep1 03.jpg                                     6.43s       0MB  OK
+  [qwen3-vl:2b-instruct   | ui           ] rep2 03.jpg                                     2.41s       0MB  OK
+  [qwen3-vl:2b-instruct   | ui           ] rep3 03.jpg                                     2.53s       0MB  OK
+  [qwen3-vl:2b-instruct   | architecture ] rep1 01.jpg                                     6.09s       0MB  OK
+  [qwen3-vl:2b-instruct   | architecture ] rep2 01.jpg                                     2.18s       0MB  OK
+  [qwen3-vl:2b-instruct   | architecture ] rep3 01.jpg                                     2.53s       0MB  OK
+  [qwen3-vl:2b-instruct   | architecture ] rep1 02.jpg                                     5.77s       0MB  OK
+  [qwen3-vl:2b-instruct   | architecture ] rep2 02.jpg                                     2.43s       0MB  OK
+  [qwen3-vl:2b-instruct   | architecture ] rep3 02.jpg                                     2.25s       0MB  OK
+  [qwen3-vl:2b-instruct   | architecture ] rep1 03.jpg                                     6.15s       0MB  OK
+  [qwen3-vl:2b-instruct   | architecture ] rep2 03.jpg                                     2.71s       0MB  OK
+  [qwen3-vl:2b-instruct   | architecture ] rep3 03.jpg                                     2.18s       0MB  OK
+  [qwen3-vl:2b-instruct   | pdfs         ] rep1 attention_is_all_you_need.pdf              9.40s       0MB  OK
+  [qwen3-vl:2b-instruct   | pdfs         ] rep2 attention_is_all_you_need.pdf              4.22s       0MB  OK
+  [qwen3-vl:2b-instruct   | pdfs         ] rep3 attention_is_all_you_need.pdf              4.84s       0MB  OK
+  [qwen3-vl:2b-instruct   | pdfs         ] rep1 bert.pdf                                   8.08s       0MB  OK
+  [qwen3-vl:2b-instruct   | pdfs         ] rep2 bert.pdf                                   3.45s       0MB  OK
+  [qwen3-vl:2b-instruct   | pdfs         ] rep3 bert.pdf                                   4.24s       0MB  OK
+  [qwen3-vl:2b-instruct   | pdfs         ] rep1 gpt3_few_shot_learners.pdf                10.85s       0MB  OK
+  [qwen3-vl:2b-instruct   | pdfs         ] rep2 gpt3_few_shot_learners.pdf                 6.96s       0MB  OK
+  [qwen3-vl:2b-instruct   | pdfs         ] rep3 gpt3_few_shot_learners.pdf                 6.32s       0MB  OK
+
+=== qwen3.5-0.8b-Q4_K_M (llama-server) ===
+[start] qwen3.5-0.8b-Q4_K_M
+[ready] qwen3.5-0.8b-Q4_K_M pid=99068
+  [qwen3.5-0.8b-Q4_K_M    | objects      ] rep1 01.jpg                                     4.79s    1025MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | objects      ] rep2 01.jpg                                     3.37s    1033MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | objects      ] rep3 01.jpg                                     2.63s    1033MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | objects      ] rep1 02.jpg                                     4.38s    1087MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | objects      ] rep2 02.jpg                                     3.01s    1095MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | objects      ] rep3 02.jpg                                     2.62s    1088MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | objects      ] rep1 03.jpg                                     4.22s    1139MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | objects      ] rep2 03.jpg                                     2.40s    1147MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | objects      ] rep3 03.jpg                                     2.71s    1146MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | ui           ] rep1 01.jpg                                     3.98s    1195MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | ui           ] rep2 01.jpg                                     2.21s    1195MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | ui           ] rep3 01.jpg                                     2.79s    1195MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | ui           ] rep1 02.jpg                                     4.22s    1227MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | ui           ] rep2 02.jpg                                     2.60s    1227MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | ui           ] rep3 02.jpg                                     2.76s    1227MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | ui           ] rep1 03.jpg                                     4.14s    1259MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | ui           ] rep2 03.jpg                                     2.67s    1259MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | ui           ] rep3 03.jpg                                     2.49s    1259MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | architecture ] rep1 01.jpg                                     4.46s    1259MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | architecture ] rep2 01.jpg                                     2.53s    1259MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | architecture ] rep3 01.jpg                                     2.87s    1259MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | architecture ] rep1 02.jpg                                     4.22s    1292MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | architecture ] rep2 02.jpg                                     2.29s    1292MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | architecture ] rep3 02.jpg                                     2.44s    1292MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | architecture ] rep1 03.jpg                                     4.02s    1296MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | architecture ] rep2 03.jpg                                     2.68s    1304MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | architecture ] rep3 03.jpg                                     2.99s    1304MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | pdfs         ] rep1 attention_is_all_you_need.pdf              3.77s    1354MB  invalid_json
+  [qwen3.5-0.8b-Q4_K_M    | pdfs         ] rep2 attention_is_all_you_need.pdf              2.19s    1354MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | pdfs         ] rep3 attention_is_all_you_need.pdf              2.46s    1353MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | pdfs         ] rep1 bert.pdf                                   5.30s    1416MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | pdfs         ] rep2 bert.pdf                                   3.46s    1350MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | pdfs         ] rep3 bert.pdf                                   3.07s    1209MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | pdfs         ] rep1 gpt3_few_shot_learners.pdf                 5.95s    1158MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | pdfs         ] rep2 gpt3_few_shot_learners.pdf                 3.20s    1122MB  OK
+  [qwen3.5-0.8b-Q4_K_M    | pdfs         ] rep3 gpt3_few_shot_learners.pdf                 2.67s    1093MB  OK
+
+=== qwen3.5-2b-Q4_K_M (llama-server) ===
+[start] qwen3.5-2b-Q4_K_M
+[ready] qwen3.5-2b-Q4_K_M pid=2507
+  [qwen3.5-2b-Q4_K_M      | objects      ] rep1 01.jpg                                     8.65s    2155MB  OK
+  [qwen3.5-2b-Q4_K_M      | objects      ] rep2 01.jpg                                     4.32s    2166MB  OK
+  [qwen3.5-2b-Q4_K_M      | objects      ] rep3 01.jpg                                     4.20s    2167MB  OK
+  [qwen3.5-2b-Q4_K_M      | objects      ] rep1 02.jpg                                     8.08s    2222MB  OK
+  [qwen3.5-2b-Q4_K_M      | objects      ] rep2 02.jpg                                     4.73s    2230MB  OK
+  [qwen3.5-2b-Q4_K_M      | objects      ] rep3 02.jpg                                     3.64s    2231MB  OK
+  [qwen3.5-2b-Q4_K_M      | objects      ] rep1 03.jpg                                     7.46s    2282MB  OK
+  [qwen3.5-2b-Q4_K_M      | objects      ] rep2 03.jpg                                     3.40s    2290MB  OK
+  [qwen3.5-2b-Q4_K_M      | objects      ] rep3 03.jpg                                     3.79s    2290MB  OK
+  [qwen3.5-2b-Q4_K_M      | ui           ] rep1 01.jpg                                     8.74s    2254MB  OK
+  [qwen3.5-2b-Q4_K_M      | ui           ] rep2 01.jpg                                     5.75s    2257MB  OK
+  [qwen3.5-2b-Q4_K_M      | ui           ] rep3 01.jpg                                     4.30s    2238MB  OK
+  [qwen3.5-2b-Q4_K_M      | ui           ] rep1 02.jpg                                     7.55s    2309MB  OK
+  [qwen3.5-2b-Q4_K_M      | ui           ] rep2 02.jpg                                     3.21s    2309MB  OK
+  [qwen3.5-2b-Q4_K_M      | ui           ] rep3 02.jpg                                     3.70s    2309MB  OK
+  [qwen3.5-2b-Q4_K_M      | ui           ] rep1 03.jpg                                     8.15s    2341MB  OK
+  [qwen3.5-2b-Q4_K_M      | ui           ] rep2 03.jpg                                     4.87s    2341MB  OK
+  [qwen3.5-2b-Q4_K_M      | ui           ] rep3 03.jpg                                     4.23s    2324MB  OK
+  [qwen3.5-2b-Q4_K_M      | architecture ] rep1 01.jpg                                     8.41s    2364MB  OK
+  [qwen3.5-2b-Q4_K_M      | architecture ] rep2 01.jpg                                     3.44s    2331MB  OK
+  [qwen3.5-2b-Q4_K_M      | architecture ] rep3 01.jpg                                     3.78s    2331MB  OK
+  [qwen3.5-2b-Q4_K_M      | architecture ] rep1 02.jpg                                     8.01s    2353MB  OK
+  [qwen3.5-2b-Q4_K_M      | architecture ] rep2 02.jpg                                     3.31s    2290MB  OK
+  [qwen3.5-2b-Q4_K_M      | architecture ] rep3 02.jpg                                     5.44s    2290MB  OK
+  [qwen3.5-2b-Q4_K_M      | architecture ] rep1 03.jpg                                     8.23s    2345MB  OK
+  [qwen3.5-2b-Q4_K_M      | architecture ] rep2 03.jpg                                     4.26s    2292MB  OK
+  [qwen3.5-2b-Q4_K_M      | architecture ] rep3 03.jpg                                     4.49s    2292MB  OK
+  [qwen3.5-2b-Q4_K_M      | pdfs         ] rep1 attention_is_all_you_need.pdf              6.96s    2404MB  OK
+  [qwen3.5-2b-Q4_K_M      | pdfs         ] rep2 attention_is_all_you_need.pdf              2.85s    2405MB  OK
+  [qwen3.5-2b-Q4_K_M      | pdfs         ] rep3 attention_is_all_you_need.pdf              3.02s    2405MB  OK
+  [qwen3.5-2b-Q4_K_M      | pdfs         ] rep1 bert.pdf                                   8.06s    2512MB  OK
+  [qwen3.5-2b-Q4_K_M      | pdfs         ] rep2 bert.pdf                                   3.26s    2461MB  OK
+  [qwen3.5-2b-Q4_K_M      | pdfs         ] rep3 bert.pdf                                   3.27s    2461MB  OK
+  [qwen3.5-2b-Q4_K_M      | pdfs         ] rep1 gpt3_few_shot_learners.pdf                 9.84s    2590MB  OK
+  [qwen3.5-2b-Q4_K_M      | pdfs         ] rep2 gpt3_few_shot_learners.pdf                 3.87s    2590MB  OK
+  [qwen3.5-2b-Q4_K_M      | pdfs         ] rep3 gpt3_few_shot_learners.pdf                 5.46s    2590MB  OK
+
+wrote /Users/ethanpan/Documents/code/SAIL/vlm-bench/REPORT3.md

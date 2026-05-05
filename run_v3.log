@@ -1,0 +1,134 @@
+Models: ['qwen3-vl:2b-instruct', 'qwen3.5-0.8b-Q4_K_M', 'qwen3.5-0.8b-Q8_0', 'qwen3.5-2b-Q4_K_M', 'qwen3.5-4b-Q4_K_M', 'qwen3.5-9b-Q4_K_M']
+
+
+=== qwen3-vl:2b-instruct (ollama) ===
+  image Snipaste_2025-12-23_03-09-51.jpg                          9.38s  rss=  3856MB  OK
+  image cursor-2025.png                                           8.29s  rss=     0MB  OK
+  image My activity - COMP SCI 577 001_ Introduction to Algorithms _ zyBooks.jpeg   7.43s  rss=     0MB  OK
+  image alian.png                                                 1.96s  rss=     0MB  OK
+  image bullet.png                                                1.77s  rss=     0MB  OK
+  image ship.png                                                  2.72s  rss=     0MB  OK
+  image Ethan_Pan_ILCE-7C_20260405-_DSC9776.JPG                   6.33s  rss=     0MB  OK
+  image Ethan_Pan_ILCE-7C_20260405-_DSC9789.JPG                   6.06s  rss=     0MB  OK
+  image 2021_0407_campus-pictures_jc_0185 (1).jpg                 6.45s  rss=     0MB  OK
+  image guide_MrCrab.png                                          6.09s  rss=     0MB  OK
+  image Snipaste_2026-04-23_14-46-05.png                          4.96s  rss=     0MB  OK
+  image 用户题目页.png                                                 4.84s  rss=     0MB  OK
+  text  videosenio.txt                                            2.11s  rss=     0MB  OK
+  text  text-460D-9B34-F7-0.txt                                   3.17s  rss=     0MB  OK
+  text  astrotwin-log-2026-04-13T14-43.txt                        7.06s  rss=     0MB  OK
+  text  logpperpaer.md                                            7.64s  rss=     0MB  OK
+  text  study4_all.csv                                            9.32s  rss=     0MB  OK
+  text  arch_terms_guide.md                                      11.68s  rss=     0MB  OK
+
+=== qwen3.5-0.8b-Q4_K_M (llama-server) ===
+[start] qwen3.5-0.8b-Q4_K_M: llama-server -m /Users/ethanpan/.ollama/models/blobs/sha256-bd258782e35f7f458f8aced1adc053e6e92e89bc735ba3be89d38a06121dc517 --mmproj /Users/ethanpan/.ollama/models/blobs/sha256-56e4c6cfe73b0c82e3e82bc518d7591997e61d81f723fc41a586f4fa69ea2453 --port 8001 --ctx-size 4096 -ngl 99 --jinja --reasoning-budget 0 --alias qwen3.5-0.8b-Q4_K_M
+[ready] qwen3.5-0.8b-Q4_K_M pid=18992
+  image Snipaste_2025-12-23_03-09-51.jpg                          5.04s  rss=   930MB  OK
+  image cursor-2025.png                                           6.82s  rss=  1023MB  OK
+  image My activity - COMP SCI 577 001_ Introduction to Algorithms _ zyBooks.jpeg   6.25s  rss=  1009MB  OK
+  image alian.png                                                 3.45s  rss=   971MB  OK
+  image bullet.png                                                1.99s  rss=   905MB  OK
+  image ship.png                                                  2.96s  rss=   918MB  OK
+  image Ethan_Pan_ILCE-7C_20260405-_DSC9776.JPG                   3.99s  rss=   984MB  OK
+  image Ethan_Pan_ILCE-7C_20260405-_DSC9789.JPG                   3.84s  rss=   991MB  OK
+  image 2021_0407_campus-pictures_jc_0185 (1).jpg                 4.66s  rss=   998MB  OK
+  image guide_MrCrab.png                                          4.05s  rss=  1024MB  OK
+  image Snipaste_2026-04-23_14-46-05.png                          3.88s  rss=  1051MB  OK
+  image 用户题目页.png                                                 4.32s  rss=   999MB  OK
+  text  videosenio.txt                                            1.64s  rss=  1059MB  OK
+  text  text-460D-9B34-F7-0.txt                                   2.34s  rss=   934MB  OK
+  text  astrotwin-log-2026-04-13T14-43.txt                        4.91s  rss=   948MB  OK
+  text  logpperpaer.md                                            4.78s  rss=  1012MB  OK
+  text  study4_all.csv                                            4.18s  rss=  1028MB  OK
+  text  arch_terms_guide.md                                       5.15s  rss=  1015MB  OK
+
+=== qwen3.5-0.8b-Q8_0 (llama-server) ===
+[start] qwen3.5-0.8b-Q8_0: llama-server -m /Users/ethanpan/.ollama/models/blobs/sha256-0ad885ffd4bb022fc4f0d33a3308fa108ef8613159d3b3a67e23abca056b7a6c --mmproj /Users/ethanpan/.ollama/models/blobs/sha256-56e4c6cfe73b0c82e3e82bc518d7591997e61d81f723fc41a586f4fa69ea2453 --port 8001 --ctx-size 4096 -ngl 99 --jinja --reasoning-budget 0 --alias qwen3.5-0.8b-Q8_0
+[ready] qwen3.5-0.8b-Q8_0 pid=21020
+  image Snipaste_2025-12-23_03-09-51.jpg                          4.72s  rss=  1316MB  invalid_json
+  image cursor-2025.png                                           5.83s  rss=  1364MB  OK
+  image My activity - COMP SCI 577 001_ Introduction to Algorithms _ zyBooks.jpeg   3.75s  rss=  1352MB  OK
+  image alian.png                                                 3.25s  rss=  1309MB  OK
+  image bullet.png                                                2.35s  rss=  1262MB  OK
+  image ship.png                                                  3.21s  rss=  1236MB  OK
+  image Ethan_Pan_ILCE-7C_20260405-_DSC9776.JPG                   4.16s  rss=  1256MB  OK
+  image Ethan_Pan_ILCE-7C_20260405-_DSC9789.JPG                   4.69s  rss=  1285MB  OK
+  image 2021_0407_campus-pictures_jc_0185 (1).jpg                 6.55s  rss=  1257MB  OK
+  image guide_MrCrab.png                                          5.07s  rss=  1268MB  OK
+  image Snipaste_2026-04-23_14-46-05.png                          6.52s  rss=  1296MB  invalid_json
+  image 用户题目页.png                                                10.31s  rss=  1265MB  invalid_json
+  text  videosenio.txt                                            2.71s  rss=  1240MB  OK
+  text  text-460D-9B34-F7-0.txt                                   3.49s  rss=  1192MB  OK
+  text  astrotwin-log-2026-04-13T14-43.txt                        5.47s  rss=  1241MB  OK
+  text  logpperpaer.md                                            5.87s  rss=  1298MB  OK
+  text  study4_all.csv                                            6.02s  rss=  1290MB  OK
+  text  arch_terms_guide.md                                       6.30s  rss=  1287MB  OK
+
+=== qwen3.5-2b-Q4_K_M (llama-server) ===
+[start] qwen3.5-2b-Q4_K_M: llama-server -m /tmp/qwen35-models/2B/Qwen3.5-2B-Q4_K_M.gguf --mmproj /tmp/qwen35-models/2B/mmproj-F16.gguf --port 8001 --ctx-size 4096 -ngl 99 --jinja --reasoning-budget 0 --alias qwen3.5-2b-Q4_K_M
+[ready] qwen3.5-2b-Q4_K_M pid=23393
+  image Snipaste_2025-12-23_03-09-51.jpg                          7.72s  rss=  2097MB  OK
+  image cursor-2025.png                                          12.24s  rss=  2194MB  OK
+  image My activity - COMP SCI 577 001_ Introduction to Algorithms _ zyBooks.jpeg  10.06s  rss=  2201MB  OK
+  image alian.png                                                 3.21s  rss=  2139MB  OK
+  image bullet.png                                                3.07s  rss=  2121MB  OK
+  image ship.png                                                  4.32s  rss=  2129MB  OK
+  image Ethan_Pan_ILCE-7C_20260405-_DSC9776.JPG                   7.05s  rss=  2173MB  OK
+  image Ethan_Pan_ILCE-7C_20260405-_DSC9789.JPG                   7.90s  rss=  2168MB  OK
+  image 2021_0407_campus-pictures_jc_0185 (1).jpg                 9.10s  rss=  2198MB  OK
+  image guide_MrCrab.png                                          9.13s  rss=  2154MB  OK
+  image Snipaste_2026-04-23_14-46-05.png                          8.96s  rss=  2188MB  OK
+  image 用户题目页.png                                                 6.44s  rss=  2171MB  OK
+  text  videosenio.txt                                            2.74s  rss=  2175MB  OK
+  text  text-460D-9B34-F7-0.txt                                   3.80s  rss=  2149MB  OK
+  text  astrotwin-log-2026-04-13T14-43.txt                        5.99s  rss=  2084MB  OK
+  text  logpperpaer.md                                            7.81s  rss=  2162MB  OK
+  text  study4_all.csv                                            7.22s  rss=  2217MB  OK
+  text  arch_terms_guide.md                                       9.05s  rss=  2175MB  OK
+
+=== qwen3.5-4b-Q4_K_M (llama-server) ===
+[start] qwen3.5-4b-Q4_K_M: llama-server -m /tmp/qwen35-models/4B/Qwen3.5-4B-Q4_K_M.gguf --mmproj /tmp/qwen35-models/4B/mmproj-F16.gguf --port 8001 --ctx-size 4096 -ngl 99 --jinja --reasoning-budget 0 --alias qwen3.5-4b-Q4_K_M
+[ready] qwen3.5-4b-Q4_K_M pid=26841
+  image Snipaste_2025-12-23_03-09-51.jpg                         17.33s  rss=  3778MB  OK
+  image cursor-2025.png                                          22.63s  rss=  3989MB  OK
+  image My activity - COMP SCI 577 001_ Introduction to Algorithms _ zyBooks.jpeg  18.10s  rss=  4005MB  OK
+  image alian.png                                                 8.71s  rss=  3836MB  OK
+  image bullet.png                                                8.16s  rss=  3673MB  OK
+  image ship.png                                                 12.20s  rss=  3683MB  OK
+  image Ethan_Pan_ILCE-7C_20260405-_DSC9776.JPG                  15.83s  rss=  3826MB  OK
+  image Ethan_Pan_ILCE-7C_20260405-_DSC9789.JPG                  17.94s  rss=  3808MB  OK
+  image 2021_0407_campus-pictures_jc_0185 (1).jpg                17.72s  rss=  3843MB  OK
+  image guide_MrCrab.png                                         14.75s  rss=  3851MB  OK
+  image Snipaste_2026-04-23_14-46-05.png                         14.63s  rss=  3928MB  OK
+  image 用户题目页.png                                                15.96s  rss=  3813MB  OK
+  text  videosenio.txt                                            7.68s  rss=  3886MB  OK
+  text  text-460D-9B34-F7-0.txt                                  10.55s  rss=  3660MB  OK
+  text  astrotwin-log-2026-04-13T14-43.txt                       15.64s  rss=  3788MB  OK
+  text  logpperpaer.md                                           26.28s  rss=  3942MB  OK
+  text  study4_all.csv                                           19.58s  rss=  3964MB  OK
+  text  arch_terms_guide.md                                      23.34s  rss=  3944MB  OK
+
+=== qwen3.5-9b-Q4_K_M (llama-server) ===
+[start] qwen3.5-9b-Q4_K_M: llama-server -m /tmp/qwen35-models/9B/Qwen3.5-9B-Q4_K_M.gguf --mmproj /tmp/qwen35-models/9B/mmproj-F16.gguf --port 8001 --ctx-size 4096 -ngl 99 --jinja --reasoning-budget 0 --alias qwen3.5-9b-Q4_K_M
+[ready] qwen3.5-9b-Q4_K_M pid=35998
+  image Snipaste_2025-12-23_03-09-51.jpg                         30.03s  rss=  6580MB  OK
+  image cursor-2025.png                                          32.08s  rss=  6775MB  OK
+  image My activity - COMP SCI 577 001_ Introduction to Algorithms _ zyBooks.jpeg  26.05s  rss=  6779MB  OK
+  image alian.png                                                14.49s  rss=  6724MB  OK
+  image bullet.png                                               11.02s  rss=  6594MB  OK
+  image ship.png                                                 14.47s  rss=  6590MB  OK
+  image Ethan_Pan_ILCE-7C_20260405-_DSC9776.JPG                  22.20s  rss=  6731MB  OK
+  image Ethan_Pan_ILCE-7C_20260405-_DSC9789.JPG                  24.17s  rss=  6746MB  OK
+  image 2021_0407_campus-pictures_jc_0185 (1).jpg                23.65s  rss=  6785MB  OK
+  image guide_MrCrab.png                                         24.75s  rss=  6755MB  OK
+  image Snipaste_2026-04-23_14-46-05.png                         22.85s  rss=  6809MB  OK
+  image 用户题目页.png                                                26.76s  rss=  6752MB  OK
+  text  videosenio.txt                                           12.34s  rss=  6748MB  OK
+  text  text-460D-9B34-F7-0.txt                                  11.98s  rss=  6620MB  OK
+  text  astrotwin-log-2026-04-13T14-43.txt                       32.71s  rss=  6596MB  OK
+  text  logpperpaer.md                                           45.80s  rss=  6683MB  OK
+  text  study4_all.csv                                           30.51s  rss=  6925MB  OK
+  text  arch_terms_guide.md                                      35.54s  rss=  7007MB  OK
+
+wrote /Users/ethanpan/Documents/code/SAIL/vlm-bench/REPORT2.md
